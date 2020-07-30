@@ -41,7 +41,7 @@ if (_result) then
 		if ((_flag getVariable ["ExileTerritoryNumberOfConstructions", 0]) >= _numberOfConstructionsAllowed) then
 		{
 			  _CanMove = false;
-			  ["ErrorTitleAndText", ["Moving aborted!", "You reached the max elements limit! You need to remove two elements to be able to move and build properly again!"]] call ExileClient_gui_toaster_addTemplateToast;
+			  ["ErrorTitleAndText", ["Moving aborted!", "You reached the max elements limit! You need to remove two elements to be able to move and build again!"]] call ExileClient_gui_toaster_addTemplateToast;
 		};
 	
 	};
